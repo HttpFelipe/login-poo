@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #6a11cb;
+
+  background: linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.loginBox {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  min-height: 200px;
+  border-radius: 10px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.user {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #59238f;
+  text-align: center;
+}
+.loginBox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #3e4443;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  background: transparent;
+  font-size: 16px;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.loginBox input[type="text"]:hover,
+.loginBox input[type="password"]:hover {
+  color: white;
+  border: white;
+  box-shadow: 0 0 5px #6a11cb;
+}
+
+.inputBox {
+  position: relative;
+}
+.inputBox span {
+  position: absolute;
+  top: 10px;
+  color: #262626;
+}
+.loginBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  background: #6a11cb;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.loginBox a {
+  color: #262626;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+a:hover {
+  color: white;
+}
+p {
+  color: #0000ff;
+}
+.erro-geral {
+  background: #c82a2a;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.erro-input {
+  border: 1px solid #c82a2a;
+}
+
+.erro {
+  color: #c82a2a;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.sucesso {
+  background: #2ac874;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.oculto {
+  display: none;
+}

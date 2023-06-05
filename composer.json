@@ -1,0 +1,20 @@
+{
+    "name": "felip/login-poo",
+    "description": "poo login system",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Felip\\LoginPoo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Felipe",
+            "email": "httpfelipe@proton.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "^5.4"
+    }
+}
