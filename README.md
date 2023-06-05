@@ -58,5 +58,5 @@ Um sistema de login desenvolvido em PHP orientado a objetos (POO) usando um banc
     index.php: Página inicial do sistema de login.
     README.md: Este arquivo.
 
-#Licença
+## Licença
 Este projeto está licenciado sob a MIT License.
