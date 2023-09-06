@@ -1,5 +1,7 @@
 # Sistema de Login com PHP Orientado a Objetos
 
+<img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2021/11/php-8-2.webp"> 
+
 ## Descrição
 Um sistema de login desenvolvido em PHP orientado a objetos (POO) usando um banco de dados MySQL/MariaDB e autenticação via tokens JWT.
 
